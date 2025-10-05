@@ -4,5 +4,5 @@ const route = useRoute()
 </script>
 
 <template>
-  <div>Card Details</div>
+  {{route.params.id}}
 </template>
