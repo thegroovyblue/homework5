@@ -11,7 +11,7 @@ const username = faker.internet.username({firstName: firstname, lastName: lastna
 
 <template>
 
-<div>
-    <img :src="faker.image.urlLoremFlickr({category: 'dog'})"/>
-</div>
+    <div>
+        <img class="object-fill h-480 w-960" v-bind:src="faker.image.urlLoremFlickr({category: 'dog', height: 480, width: 960})" />
+    </div>
 </template>
